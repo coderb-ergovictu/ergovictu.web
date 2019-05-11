@@ -1229,7 +1229,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 header {
   width: 100%;
-  height: auto;
+  height: 12vh;
   position: absolute;
   left: 0;
   top: 0;
@@ -1247,7 +1247,7 @@ header .row {
 header .header-logo {
   position: absolute;
   left: 32px;
-  top: 42px;
+  top: 30px;
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
   -webkit-transition: all 1s ease-in-out;
@@ -1260,10 +1260,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 57px;
-  height: 27px;
-  background: url("../images/logo.png") no-repeat center;
-  background-size: 57px 27px;
+  width: 150px;
+  height: 46px;
+  background: url("../images/ergo-victu-header-logo.png") no-repeat center;
+  background-size: 150px 46px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1509,7 +1509,7 @@ header .header-logo a {
   width: 100%;
   height: 100%;
   background-color: #151515;
-  background-image: url(../images/hero-bg.jpg);
+  background-image: url(../images/ergo-victu-background.svg);
   background-repeat: no-repeat;
   background-position: center 30%;
   -webkit-background-size: cover;
@@ -1886,7 +1886,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(../images/fruits-vegetables.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2508,7 +2508,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #contact {
   background-color: #111111;
-  background-image: url(../images/contact-bg.jpg);
+  background-image: url(../images/cut-vegetables-blue-oar.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -2805,6 +2805,7 @@ footer {
   padding: 0;
   font-size: 1.5rem;
   color: rgba(255, 255, 255, 0.4);
+  background-image: url(../images/ergo-victu-background.svg);
 }
 footer a, footer a:visited {
   color: #FFFFFF;
