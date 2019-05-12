@@ -406,7 +406,7 @@
 		ssPreloader();
 		ssFitVids();
 		ssMasonryFolio();
-		ssLightGallery();
+		// ssLightGallery();
 		ssFlexSlider();
 		ssOwlCarousel();
 		ssMenuOnScrolldown();
