@@ -2290,10 +2290,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: white;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: #FFFFFF;
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: #FFFFFF;
 }
 
 .contact-content {
@@ -2308,7 +2308,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
+  color: #8367C7;
   font-size: 1.4rem;
 }
 
@@ -2343,8 +2343,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   letter-spacing: .05rem;
   padding: .6rem 2rem .6rem 2rem;
   margin: 0;
-  color: #000000;
-  background: #f9a828;
+  color: #FFFFFF;
+  background: #8367C7;
   border-radius: 3px;
 }
 #contact form .form-field label::after {
@@ -2358,21 +2358,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
 }
 #contact form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
 }
 #contact form :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
   /* Firefox 18- */
 }
 #contact form ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
   /* Firefox 19+ */
 }
 #contact form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
 }
 #contact form .placeholder {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #8367C7 !important;
 }
 
 #contact input[type="text"],
@@ -2407,12 +2407,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   line-height: 6rem;
   padding: 0 3rem;
   width: 100%;
-  background: #f9a828;
-  color: #000000;
+  background: #8367C7;
+  color: #FFFFFF;
   margin-top: .6rem;
 }
 #contact button.submitform:hover, #contact button.submitform:focus {
-  background: #f89e0f;
+  background: #5603AD;
 }
 
 #message-warning, #message-success {
@@ -2428,7 +2428,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 #message-success {
-  color: #f9a828;
+  color: #5603AD;
 }
 
 #message-warning i,
