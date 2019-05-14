@@ -2015,6 +2015,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #gallery .intro-wrap {
   padding: 15rem 0 21rem;
   background: #111111;
+  background-image: url(../images/ergo-victu-background.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #gallery .section-intro h3 {
   color: rgba(242, 242, 242, 0.5);
