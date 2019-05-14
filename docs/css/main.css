@@ -1917,7 +1917,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9000000', endColorstr='#00000000',GradientType=0 );
 }
 #features .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: #FFFFFF;
 }
 #features .section-intro h2 {
   color: #FFFFFF;
@@ -1927,7 +1927,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #FFFFFF;
 }
 #features .section-intro .lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: #FFFFFF;
 }
 #features .features-content {
   text-align: center;
@@ -1942,7 +1942,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #features .features-list .feature-item p {
-  color: rgba(242, 242, 242, 0.5);
+  color: #FFFFFF;
 }
 #features .features-list .icon {
   display: inline-block;
@@ -1950,7 +1950,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
   #features .features-list .icon i {
     font-size: 5.4rem;
-    color: #cbadf3;
+    color: #8367C7;
   }
 #features .features-list .h05 {
   font-size: 1.7rem;
