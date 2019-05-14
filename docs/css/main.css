@@ -2290,10 +2290,10 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: white;
 }
 #contact .section-intro h3 {
-  color: rgba(242, 242, 242, 0.5);
+  color: #FFFFFF;
 }
 #contact .section-intro p.lead {
-  color: rgba(242, 242, 242, 0.4);
+  color: #FFFFFF;
 }
 
 .contact-content {
@@ -2308,7 +2308,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 5.4rem;
 }
 .contact-content h6 {
-  color: #555555;
+  color: #8367C7;
   font-size: 1.4rem;
 }
 
@@ -2358,21 +2358,21 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   content: "";
 }
 #contact form ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
 }
 #contact form :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
   /* Firefox 18- */
 }
 #contact form ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
   /* Firefox 19+ */
 }
 #contact form :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.3);
+  color: #8367C7;
 }
 #contact form .placeholder {
-  color: rgba(255, 255, 255, 0.3) !important;
+  color: #8367C7 !important;
 }
 
 #contact input[type="text"],
