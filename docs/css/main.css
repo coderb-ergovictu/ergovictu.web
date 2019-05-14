@@ -1791,7 +1791,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "titilliumweb-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #8367C7;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1808,7 +1808,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "prompt-light", serif;
   font-size: 4rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: #5603AD;
   margin-top: 6rem;
 }
 
