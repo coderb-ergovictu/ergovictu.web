@@ -560,7 +560,7 @@ select {
   border: 0;
   outline: none;
   vertical-align: middle;
-  color: #444444;
+  color: #8367C7;
   font-family: "titilliumweb-bold", sans-serif;
   font-size: 1.4rem;
   line-height: 3rem;
@@ -631,7 +631,7 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 textarea:focus,
 select:focus {
-  color: #000000;
+  color: #FFFFFF;
 }
 
 label, legend {
@@ -665,25 +665,25 @@ label > input[type="radio"] {
  * Style Placeholder Text - (_forms.scss)
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-  color: #8e8e8e;
+  color: #8367C7;
 }
 
 :-moz-placeholder {
-  color: #8e8e8e;
+  color: #8367C7;
   /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-  color: #8e8e8e;
+  color: #8367C7;
   /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-  color: #8e8e8e;
+  color: #8367C7;
 }
 
 .placeholder {
-  color: #8e8e8e !important;
+  color: #8367C7 !important;
 }
 
 /* ------------------------------------------------------------------- 
@@ -2380,7 +2380,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #contact input[type="email"],
 #contact textarea {
   width: 100%;
-  color: rgba(255, 255, 255, 0.6);
+  color: #8367C7;
   margin-bottom: 3.6rem;
   background: rgba(255, 255, 255, 0.1);
 }
@@ -2561,11 +2561,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  *
  * ------------------------------------------------------------------- */
 footer {
-  margin: 0 0 5.4rem 0;
+  margin: 0 0 0 0;
   padding: 0;
   font-size: 1.5rem;
   color: #ffffff;
   background-image: url(../images/ergo-victu-background.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 footer a, footer a:visited {
   color: #FFFFFF;
@@ -2628,8 +2630,8 @@ footer h4.h05::after {
   background-color: rgba(0, 0, 0, 0.9);
 }
 .footer-main #mc-form button {
-  background-color: #f9a828;
-  color: #000000;
+  background-color: #8367C7;
+  color: #FFFFFF;
   width: 6rem;
   height: 6rem;
   line-height: 6rem;
@@ -2640,7 +2642,7 @@ footer h4.h05::after {
   top: 0;
 }
 .footer-main #mc-form button:hover {
-  background-color: #f89e0f;
+  background-color: #5603AD;
 }
 .footer-main #mc-form button i {
   font-size: 2.6rem;
@@ -2691,7 +2693,7 @@ footer h4.h05::after {
   line-height: 63px;
   text-align: center;
   background-color: #000000;
-  color: #888;
+  color: #8367C7;
   text-align: center;
   text-transform: uppercase;
   -moz-transition: all 0.3s ease-in-out;
