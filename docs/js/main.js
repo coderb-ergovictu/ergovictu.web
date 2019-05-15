@@ -64,17 +64,6 @@
 	};
 
 
-	/*	Light Gallery
-	------------------------------------------------------- */
-	var ssLightGallery = function() {
-
-		$('#folio-wrap').lightGallery({  
-			showThumbByDefault: false,
-			hash: false,
-			selector: ".item-wrap"		
-		});
-	};
-
 
 	/* Flexslider
   	* ------------------------------------------------------ */
@@ -298,85 +287,6 @@
 	};
 
 
-  /* Contact Form
-   * ------------------------------------------------------ */
-   var ssContactForm = function() {   	
-
-   	/* local validation */   	
-		$('#contactForm').validate({
-
-			/* submit via ajax */
-			submitHandler: function(form) {				
-				var sLoader = $('#submit-loader');			
-
-				$.ajax({   	
-			      type: "POST",
-			      url: "inc/sendEmail.php",
-			      data: $(form).serialize(),
-
-			      beforeSend: function() { 
-			      	sLoader.fadeIn(); 
-			      },
-			      success: function(msg) {
-		            // Message was sent
-		            if (msg == 'OK') {
-		            	sLoader.fadeOut(); 
-		               $('#message-warning').hide();
-		               $('#contactForm').fadeOut();
-		               $('#message-success').fadeIn();   
-		            }
-		            // There was an error
-		            else {
-		            	sLoader.fadeOut(); 
-		               $('#message-warning').html(msg);
-			            $('#message-warning').fadeIn();
-		            }
-			      },
-			      error: function() {
-			      	sLoader.fadeOut(); 
-			      	$('#message-warning').html("Something went wrong. Please try again.");
-			         $('#message-warning').fadeIn();
-			      }
-		      });    		
-	  		}
-
-		});
-   };	
-
-
-  /* AjaxChimp
-	* ------------------------------------------------------ */
-	var ssAjaxChimp = function() {
-
-		$('#mc-form').ajaxChimp({
-			language: 'es',
-		   url: cfg.mailChimpURL
-		});
-
-		// Mailchimp translation
-		//
-		//  Defaults:
-		//	 'submit': 'Submitting...',
-		//  0: 'We have sent you a confirmation email',
-		//  1: 'Please enter a value',
-		//  2: 'An email address must contain a single @',
-		//  3: 'The domain portion of the email address is invalid (the portion after the @: )',
-		//  4: 'The username portion of the email address is invalid (the portion before the @: )',
-		//  5: 'This email address looks fake or invalid. Please enter a real email address'
-
-		$.ajaxChimp.translations.es = {
-		  'submit': 'Submitting...',
-		  0: '<i class="fa fa-check"></i> We have sent you a confirmation email',
-		  1: '<i class="fa fa-warning"></i> You must enter a valid e-mail address.',
-		  2: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-		  3: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-		  4: '<i class="fa fa-warning"></i> E-mail address is not valid.',
-		  5: '<i class="fa fa-warning"></i> E-mail address is not valid.'
-		} 
-
-	};
-
- 
   /* Back to Top
 	* ------------------------------------------------------ */
 	var ssBackToTop = function() {
@@ -406,7 +316,6 @@
 		ssPreloader();
 		ssFitVids();
 		ssMasonryFolio();
-		// ssLightGallery();
 		ssFlexSlider();
 		ssOwlCarousel();
 		ssMenuOnScrolldown();
@@ -415,9 +324,7 @@
 		ssPlaceholder();
 		ssAlertBoxes();
 		ssAnimations();
-		ssIntroAnimation();		
-		// ssContactForm();
-		// ssAjaxChimp();
+		ssIntroAnimation();
 		ssBackToTop();
 
 	})();
