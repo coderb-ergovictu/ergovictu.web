@@ -1,0 +1,24 @@
+/* ===================================================================
+ * fonts.scss)
+ *
+ * ------------------------------------------------------------------- */
+
+/*
+ * Prompt-Light
+================================================================================ */
+@font-face {
+  font-family: "prompt-light";
+  src: url("../fonts/prompt-light/Prompt-Light.woff2") format("woff2"), url("../fonts/prompt-light/Prompt-Light.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+
+/*
+ * Titilliumweb Bold
+================================================================================ */
+@font-face {
+  font-family: "titilliumweb-bold";
+  src: url("../fonts/titilliumweb-bold/TitilliumWeb-Bold.woff2") format("woff2"), url("../fonts/titilliumweb-bold/TitilliumWeb-Bold.woff") format("woff");
+  font-style: oblique;
+  font-weight: normal;
+}
